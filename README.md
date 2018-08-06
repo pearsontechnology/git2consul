@@ -2,15 +2,16 @@
 
 ---
 
-[NOTE]
-#### Custom version: clone depth of 2
-#### Custom version: Buffer limit bug fix changes included
 
 [![Build Status](https://travis-ci.org/breser/git2consul.svg?branch=master)](https://travis-ci.org/breser/git2consul)
 [![Coverage Status](https://img.shields.io/coveralls/breser/git2consul.svg)](https://coveralls.io/r/breser/git2consul?branch=master)
 
 [![Join the chat at https://gitter.im/Cimpress-MCP/git2consul](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Cimpress-MCP/git2consul?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Google Groups](https://img.shields.io/badge/google--group-git2consul-green.svg)](https://groups.google.com/group/git2consul-tool/)
+
+[NOTE]
+#### Custom version: clone depth of 2
+#### Custom version: Buffer limit bug fix changes included
 
 git2consul takes one or many git repositories and mirrors them into [Consul](http://www.consul.io/) KVs.  The goal is for organizations of any size to use git as the backing store, audit trail, and access control mechanism for configuration changes and Consul as the delivery mechanism.
 
