@@ -1,0 +1,26 @@
+{
+    "version": "1.0",
+    "logger": {
+        "name": "git2consul",
+        "streams": [{
+                "level": "trace",
+                "stream": "process.stdout"
+            },
+            {
+                "level": "debug",
+                "type": "rotating-file",
+                "path": "/var/log/git2consul/git2consul.log"
+            }
+        ]
+    },
+    "max_sockets": 1,
+    "repos": [{
+        "name": "application-config",
+        "url": "ssh://git@bitbucket.pearson.com/glp/glp-application-config-common-bitesize.git",
+        "branches": ["master"],
+        "hooks": [{
+            "type": "polling",
+            "interval": "1"
+        }]
+    }]
+}
