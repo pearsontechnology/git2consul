@@ -1,5 +1,10 @@
 # git2consul
 
+---
+
+##### Custom version: clone depth of 2
+##### Custom version: Buffer limit bux fix changes included
+
 [![Build Status](https://travis-ci.org/breser/git2consul.svg?branch=master)](https://travis-ci.org/breser/git2consul)
 [![Coverage Status](https://img.shields.io/coveralls/breser/git2consul.svg)](https://coveralls.io/r/breser/git2consul?branch=master)
 
